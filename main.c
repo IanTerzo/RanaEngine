@@ -1682,7 +1682,7 @@ int main() {
 	printf("Cleaning up resources...\n");
 
 	for (size_t i = 0; i < MAX_FRAMES_IN_FLIGHT; i++) {
-	142907554+NilsNachname@users.noreply.github.com	vkDestroySemaphore(logicalDevice, renderFinishedSemaphores[i], NULL);
+		vkDestroySemaphore(logicalDevice, renderFinishedSemaphores[i], NULL);
 		vkDestroySemaphore(logicalDevice, imageAvailableSemaphores[i], NULL);
 		vkDestroyFence(logicalDevice, inFlightFences[i], NULL);
 	}
