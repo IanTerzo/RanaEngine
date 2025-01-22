@@ -18,7 +18,7 @@
 #include <string.h>
 #include <time.h>
 #define STB_IMAGE_IMPLEMENTATION
-#include "stb_image.h"
+#include "include/stb_image.h"
 
 #ifdef NDEBUG
 const bool enableValidationLayers = false;
